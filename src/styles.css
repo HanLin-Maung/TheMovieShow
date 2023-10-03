@@ -10,3 +10,20 @@ body{
     background-color: #000000;
     overflow-x: hidden;
 }
+
+
+.section{
+    padding: 50px 10% 60px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    gap: 3.5;
+    background-color:#2d2b2b ;
+    color: #ffe4c4;
+    /* position: absolute; */
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.cc {
+    background-color:#2d2b2b ;
+}
